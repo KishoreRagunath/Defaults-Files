@@ -43,8 +43,8 @@ fi
 
 
 # Created by `pipx` on 2025-10-21 15:59:47
-export PATH="$PATH:$HOME/go/bin"
-export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:/Users/home_directory_name/go/bin"
+export PATH="$PATH:/Users/home_directory_name/.local/bin"
 
 source /Users/black_bulls/go/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/gf-completion.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -68,9 +68,9 @@ alias doc="docker start ubuntu && docker exec -it ubuntu bash"
 alias ip="ifconfig | awk '/^(en[0-9]+|utun[0-9]+):/ {i=1} i && /inet / {print $2; i=0}'"
 alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 
-alias Corsy='python3 "/Users/black_bulls/Corsy/corsy.py"'
-alias XSStrike='python3 "/Users/black_bulls/XSStrike/xsstrike.py"'
-alias SecretFinder='python3 "/Users/black_bulls/SecretFinder/SecretFinder.py"'
-alias loxs='python3 "/Users/black_bulls/loxs/loxs.py"'
-alias lostfuzzer='bash "/Users/black_bulls/lostfuzzer/lostfuzzer.sh"'
-alias lazyegg='python3 "/Users/black_bulls/lazyegg/lazyegg.py"'
+alias Corsy='python3 "/Users/home_directory_name/Corsy/corsy.py"'
+alias XSStrike='python3 "/Users/home_directory_name/XSStrike/xsstrike.py"'
+alias SecretFinder='python3 "/Users/home_directory_name/SecretFinder/SecretFinder.py"'
+alias loxs='python3 "/Users/home_directory_name/loxs/loxs.py"'
+alias lostfuzzer='bash "/Users/home_directory_name/lostfuzzer/lostfuzzer.sh"'
+alias lazyegg='python3 "/Users/home_directory_name/lazyegg/lazyegg.py"
